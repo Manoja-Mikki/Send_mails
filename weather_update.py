@@ -7,7 +7,7 @@ import time
 from urllib.parse import quote  # Import quote for URL encoding
 
 # API and Email details
-WEATHER_API_KEY = 'aeccb313cb9f41e5c7605487e4ab4a43'
+WEATHER_API_KEY = input("Enter API key: ")
 EMAIL_ADDRESS = 'manojam1701@gmail.com'  # Your Gmail address
 APP_PASSWORD = input("Enter app specific passpord:")  # Use the app-specific password generated in Google account
 RECIPIENT_EMAIL = input("Enter recipient email: ")
